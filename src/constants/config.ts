@@ -1,0 +1,41 @@
+export const HOST = process.env.NODE_ENV === 'production' ? 'https://api.gpnsmonitor.ru' : 'https://api-test.gpnsmonitor.ru/';
+// export const HOST = process.env.NODE_ENV === 'production'?"https://gazprom.tech/prod":"http://82.202.204.94";
+// export const HOST = "http://82.202.204.94";
+export const API = process.env.NODE_ENV === 'production' ? `${HOST}` : '';
+export const CHECKS_API = `${API}/checks`;
+export const CHECK_API = `${API}/check`;
+export const STAGES_API = `${API}/stages`;
+export const KNOTS_API = `${API}/knots`;
+export const KNOT_API = `${API}/knot`;
+export const PRODUCTS_API = `${API}/products`;
+export const PRODUCT_API = `${API}/product`;
+export const FEATURE_API = `${API}/feature`;
+export const FEATURES_API = `${API}/features`;
+export const OPERATION_API = `${API}/operation`;
+export const PHOTO_API = `${API}/photo`;
+export const PHOTO_PATH = `${HOST}`;
+export const API_VERSION = '1';
+export const PING_API = `${API}/ping`;
+export const PROFILE_API = `${API}/owner`;
+
+export const TICKETS_API = 'https://gpnsmonitor.ru:9009/tickets';
+export const TICKET_API = 'https://gpnsmonitor.ru:9009/tickets';
+export const TICKET_STATUS_API = 'https://gpnsmonitor.ru:9009/tickets/status';
+export const MESSAGE_API = 'https://gpnsmonitor.ru:9009/messages';
+
+export const rootPage = '/';
+export const networkPage = '/network';
+export const loginPage = '/login';
+export const productPage = '/product';
+export const checkPage = '/check';
+export const wizardPage = '/wizard';
+export const finalPage = '/final';
+export const knotsListPage = '/knots';
+export const knotsCheckPage = '/check-knot';
+export const wizardKnotPage = '/wizard-knot';
+export const supportPage = '/support';
+export const supportArchivePage = '/support-archive';
+export const questionPage = '/question';
+export const questionCreatePage = '/question-create';
+
+export const supportEmail = 'vitalykir@gmail.com';

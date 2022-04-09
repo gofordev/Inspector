@@ -20,7 +20,7 @@
     "graphql-tag": "2.10.0",
     "hooper": "^0.3.1",
     "immutable": "^4.0.0-rc.12",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "react-native-uuid": "^1.4.9",
     "vue": "^2.6.10",
     "vue-apollo": "3.0.0-beta.25",
